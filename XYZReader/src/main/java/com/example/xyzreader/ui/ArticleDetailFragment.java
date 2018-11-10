@@ -149,7 +149,6 @@ public class ArticleDetailFragment extends Fragment implements
                         .getIntent(), getString(R.string.action_share)));
             }
         });
-
         bindViews();
         updateStatusBar();
         return mRootView;

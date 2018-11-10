@@ -18,7 +18,19 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#CCCCCC</item>
 
+        <item name="colorPrimaryDark">@android:color/darker_gray</item>
+
+        <item name="colorAccent">#999999</item>
+    </style>
+
+    <style name="MyStyle" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#CCCCCC</item>
+
+        <item name="colorPrimaryDark">@android:color/darker_gray</item>
+
+        <item name="colorAccent">#999999</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
